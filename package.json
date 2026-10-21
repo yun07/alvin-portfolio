@@ -13,7 +13,8 @@
     "serve": "npx serve dist/",
     "check:images": "tsx scripts/check-images.ts",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "check:projects": "node scripts/check-projects.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
