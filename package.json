@@ -2,13 +2,13 @@
   "name": "astro-frame-shift",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "yarn@4.18.1",
   "engines": {
     "node": ">=22.12.0"
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "yarn check:images && astro build",
-    "build:skip-checks": "astro build",
+    "build": "tsx scripts/check-images.ts && astro build",
     "build:dev": "astro build --devOutput",
     "serve": "npx serve dist/",
     "check:images": "tsx scripts/check-images.ts",
