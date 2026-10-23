@@ -1,5 +1,4 @@
 ---
-import path from 'path';
 import { slugify } from '../utils/slug';
 
 interface Props {
@@ -26,7 +25,7 @@ const chipClass =
       const slug = slugify(category);
       return (
         <a
-          href={path.join(BASE_URL, 'category', slug)}
+          href={`${BASE_URL}category/${slug}`}
           class:list={[chipClass, { 'is-active': active === slug }]}
           aria-current={active === slug ? 'page' : undefined}
         >

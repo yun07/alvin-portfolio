@@ -6,8 +6,8 @@ const isDev = import.meta.env.DEV;
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://emasuriano.github.io',
-  base: isDev ? '' : process.env.PAGES_BASE || 'astro-frame-shift',
+  site: 'https://alvin-portfolio.heungyun.workers.dev',
+base: '/',
   prefetch: { defaultStrategy: 'viewport' },
   vite: { plugins: [tailwindcss()] },
   // Authorizing remote images https://images.unsplash.com/
