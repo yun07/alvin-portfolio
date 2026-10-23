@@ -1,0 +1,10 @@
+
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "alvin-portfolio",
+  "compatibility_date": "2026-10-24",
+  "assets": {
+    "directory": "./dist"
+  }
+}
+
