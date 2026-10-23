@@ -1,0 +1,51 @@
+
+[
+  {
+    "id": "auto-synthetic-pipeline",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "video",
+        "src": "/media/crimson-fluid.mp4",
+        "poster": "/media/crimson-poster.jpg"
+      },
+      {
+        "type": "text",
+        "heading": "Project Overview",
+        "body": "Explain the project background and creative goals."
+      },
+      {
+        "type": "image",
+        "src": "/images/projects/auto-synthetic-pipeline/visualisation.png",
+        "alt": "Visual development breakdown",
+        "caption": "Visual development and compositing breakdown"
+      },
+      {
+        "type": "gif",
+        "src": "/images/crimson-process.gif",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/crimson-01.jpg",
+            "alt": "First project image",
+            "caption": "First visual"
+          },
+          {
+            "src": "/images/crimson-02.jpg",
+            "alt": "Second project image",
+            "caption": "Second visual"
+          }
+        ]
+      },
+      {
+        "type": "embed",
+        "src": "https://www.youtube.com/embed/Q3zcQJY2bQc",
+        "title": "Project video"
+      }
+    ]
+  }
+]

@@ -75,33 +75,8 @@ const { BASE_URL } = import.meta.env;
       class="mt-16 bg-paper-2 py-8"
       transition:name="footer"
     >
-      <div
-        class="container mx-auto px-6 text-center text-sm font-light text-muted"
-      >
-        <p>
-          &copy; {new Date().getFullYear()}{' '}
-          <a
-            href="https://github.com/EmaSuriano"
-            class="transition-colors hover:text-accent"
-          >
-            Ema Suriano
-          </a>
-        </p>
-        <p class="mt-2">
-          <a
-            href="https://github.com/EmaSuriano/astro-frame-shift"
-            class="transition-colors hover:text-accent"
-          >
-            Astro Frame Shift
-          </a>
-          {' · Built with '}
-          <a
-            href="https://astro.build"
-            class="transition-colors hover:text-accent"
-          >
-            Astro
-          </a>
-        </p>
+      <div class="container mx-auto px-6 text-center text-sm font-light text-muted">
+        <p>© {new Date().getFullYear()} Alvin Lai · Portfolio</p>
       </div>
     </footer>
   </body>

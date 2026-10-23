@@ -1,51 +1,1601 @@
 
 [
   {
-    "id": "crimson-fluid-abstract",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "id": "auto-synthetic-pipeline",
+    "subtitle": "Houdini / Unreal / AI Training",
+    "intro": "General-purpose world generators may struggle to provide precise control over specialised edge cases. Building dedicated generators can also require additional engineering work to connect them to downstream rendering, data export, and model evaluation workflows, increasing the cross-disciplinary skills required to deliver usable training data.",
     "blocks": [
       {
-        "type": "video",
-        "src": "/media/crimson-fluid.mp4",
-        "poster": "/media/crimson-poster.jpg"
+        "type": "embed",
+        "src": "https://www.youtube.com/embed/Q3zcQJY2bQc",
+        "title": "Project video"
       },
       {
         "type": "text",
         "heading": "Project Overview",
-        "body": "Explain the project background and creative goals."
+        "body": "Designed an automated synthetic data pipeline that separates specialised environment generation from downstream data production. Developers can focus on creating Houdini operators for specific scenarios, while the shared pipeline handles rendering and dataset export through Houdini Engine and Unreal Engine. Built a procedural intersection generator as a demonstration of configurable, complex road-junction scenarios."
+      },            
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/auto-synthetic-pipeline/rgb.jpg",
+            "alt": "RGB",
+            "caption": "RGB"
+          },
+          {
+            "src": "/images/projects/auto-synthetic-pipeline/job.jpg",
+            "alt": "Job Description",
+            "caption": "Job Description"
+          },
+          {
+            "src": "/images/projects/auto-synthetic-pipeline/depth.png",
+            "alt": "Depth",
+            "caption": "Depth"
+          },
+          {
+            "src": "/images/projects/auto-synthetic-pipeline/coco.jpg",
+            "alt": "COCO",
+            "caption": "Coco Annotation"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Technical Highlights",
+        "body": "Integrated Houdini Engine with Unreal Engine for automated rendering and runtime data export, avoiding an intermediate USD-file workflow. Implemented checkpoint-based recovery, lock-file coordination to prevent duplicate file writes across servers, and error handling for Houdini Engine failures during rendering."
       },
       {
         "type": "image",
-        "src": "/images/crimson-breakdown.jpg",
+        "src": "/images/projects/auto-synthetic-pipeline/visualisation.png",
         "alt": "Visual development breakdown",
         "caption": "Visual development and compositing breakdown"
       },
       {
+        "type": "text",
+        "heading": "Impact",
+        "body": "Established a reusable workflow for connecting specialised scenario generators to automated data production. The approach aims to reduce duplicated pipeline development and reliance on individuals with expertise spanning procedural generation, Unreal Engine, Python automation, and downstream ML workflows. Demonstrated the pipeline with 7-class semantic segmentation task, achieving a best evaluation mIoU of 0.8745."
+      }      
+    ]
+  },
+  {
+    "id": "procedural-building",
+    "subtitle": "Unreal / UI/UX / UGC / Procedural Interior",
+    "intro": "A UGC building system required runtime procedural generation that could maintain performance while providing intuitive building controls for players and creators.",
+    "blocks": [
+      {
+        "type": "embed",
+        "src": "https://youtube.com/embed/obk82-dtMSI",
+        "title": "Project video"
+      },
+      {
+        "type": "text",
+        "heading": "Project Overview",
+        "body": "Developed a runtime procedural building system with responsive architecture modules and custom manipulation tools to allow fast building generation and editing."
+      },            
+      {
+        "type": "text",
+        "heading": "Technical Highlights",
+        "body": "Custom control gizmo for manipulating building footprint and height\nResponsive architectural modules including walls, windows, doors, and roof elements\nAutomatic adaptation to varying building shapes and sizes\nProcedural generation of interior structures such as rooms and stairs"
+      },
+      {
+        "type": "text",
+        "heading": "Impact",
+        "body": "Delivered a scalable runtime building system for UGC creation. Creators can rapidly generate buildings while maintaining strong visual consistency and performance."
+      }      
+    ]
+  },
+  {
+    "id": "wave-function-collapse",
+    "subtitle": "Unreal / WFC / Precedural Environment",
+    "intro": "Large environment spaces between playable areas required efficient background generation that maintained visual consistency with the main environment.",
+    "blocks": [
+      {
+        "type": "embed",
+        "src": "https://youtube.com/embed/jQ0PkM4OCrM",
+        "title": "Project video"
+      },
+      {
+        "type": "text",
+        "heading": "Project Overview",
+        "body": "Implemented a procedural environment generation system based on the Wave Function Collapse algorithm to automatically assemble environment assets."
+      },            
+      {
+        "type": "text",
+        "heading": "Technical Highlights",
+        "body": "Wave Function Collapse algorithm for rule-based environment generation\nModular asset compatibility system ensuring valid placement combinations\nArtist control parameters for adjusting generation behavio"
+      },
+      {
+        "type": "text",
+        "heading": "Impact",
+        "body": "Allowed artists to rapidly generate large environment areas that blend seamlessly with playable spaces, improving both visual consistency and production efficiency."
+      }      
+    ]
+  },
+  {
+    "id": "procedural-terrain",
+    "subtitle": "Unreal / Houdini / Houdini Engine / Procedural Terrain",
+    "intro": "Environment artists needed a faster way to generate landscapes while preserving a non-destructive workflow and maintaining control over terrain layout.",
+    "blocks": [
+      {
+        "type": "embed",
+        "src": "https://youtube.com/embed/WWqp0Zsk1co",
+        "title": "Project video"
+      },
+      {
+        "type": "text",
+        "heading": "Project Overview",
+        "body": "Developed a procedural landscape generation HDA in Houdini designed for artist-friendly workflows and rapid environment iteration."
+      },            
+      {
+        "type": "text",
+        "heading": "Technical Highlights",
+        "body": "Automatic heightfield generation based on layout shapes\nSpline-based road path generation integrated into terrain generation\nNon-destructive procedural workflow allowing artists to quickly iterate terrain variations"
+      },
+      {
+        "type": "text",
+        "heading": "Impact",
+        "body": "Reduced environment production time and improved iteration speed. Landscape generation performance improved by approximately 50%."
+      }      
+    ]
+  },
+  {
+    "id": "skin-tool",
+    "subtitle": "Unreal / UGC / Runtime Texturing / UI/UX",
+    "intro": "A UGC character customization system required a flexible texture layering workflow while maintaining runtime performance and memory efficiency.",
+    "blocks": [
+      {
+        "type": "embed",
+        "src": "https://youtube.com/embed/oGftHyKeSig",
+        "title": "Project video"
+      },
+      {
+        "type": "text",
+        "heading": "Project Overview",
+        "body": "Developed a runtime skinning system supporting layered texture editing with optimized memory usage and intuitive manipulation tools."
+      },            
+      {
+        "type": "text",
+        "heading": "Technical Highlights",
+        "body": "Texture layer compression system to reduce runtime memory footprint\nLayer-based skinning workflow for flexible character customization\nInteractive manipulation gizmo for editing skin layers in real time\nOptimized layer merging and rendering pipeline for smooth performance"
+      },
+      {
+        "type": "text",
+        "heading": "Impact",
+        "body": "Enabled a flexible character skinning workflow suitable for UGC systems. Creators can quickly customize character appearances while maintaining efficient runtime performance."
+      }      
+    ]
+  },
+  {
+    "id": "urban-framework",
+    "subtitle": "Unreal / Procedural Assembly Framework / Environment / UI/UX",
+    "intro": "Artists needed a way to generate modular structures quickly while still maintaining creative control. Fully random procedural generation was not suitable for production workflows.",
+    "blocks": [
+      {
+        "type": "embed",
+        "src": "https://youtube.com/embed/HRG_wxbH-JM",
+        "title": "Project video"
+      },
+      {
+        "type": "text",
+        "heading": "Project Overview",
+        "body": "Designed a procedural assembly framework that allows artists to construct complex structures using modular presets and rule-based generation."
+      },            
+      {
+        "type": "text",
+        "heading": "Technical Highlights",
+        "body": "Tag-based modular asset system allowing artists to select procedural presets via a simple UI\nIntersection control system to safely combine multiple procedural containers\nProcedural internal structure generation for more complex assemblies\nPlacement utilities enabling artists to build their own procedural modules"
+      },
+      {
+        "type": "text",
+        "heading": "Impact",
+        "body": "Enabled rapid environment generation while maintaining full artistic control. Significantly improved iteration speed and expanded the usability of procedural workflows for artists."
+      }      
+    ]
+  },
+  {
+    "id": "chill-club-awards",
+    "subtitle": "Music Awards / LED Wall / Broadcast / Graphic Package",
+    "intro": "Flagship Station Ident, broadcast package, and stage motion graphics for ViuTV’s inaugural music megashow—Chill Club Music Awards 20/21.",
+    "blocks": [
+      {
         "type": "gif",
-        "src": "/images/crimson-process.gif",
+        "src": "/images/projects/ChillClubAwards/borader.gif",
         "alt": "Animation process preview"
+      },
+      {
+        "type": "image",
+        "src": "/images/projects/ChillClubAwards/general_loop_01_1890.webp",
+        "alt": "Visual development breakdown",
+        "caption": "Visual development and compositing breakdown"
+      },
+      {
+        "type": "text",
+        "heading": "Project Overview",
+        "body": "From Broadcast to AsiaWorld-Expo Arena The design scaled beyond the screen into physical space, collaborating with ViuTV executive producers, scenic designers, and lighting crews to translate neon geometry and stacked blocks into a physical 3D stage and suspended neon rig at the AsiaWorld-Expo (10,000+ capacity arena)."
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/ChillClubAwards/1920_toten_backStage_1.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/ChillClubAwards/borader.gif",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "text",
+        "heading": "Futuristic Cyber & Street Aesthetics",
+        "body": "Fuses Futuristic Cyber, Cyberpunk digital art, street culture, and Vaporwave elements—combining dual-line neon marks with modular stacked blocks."
       },
       {
         "type": "gallery",
         "items": [
           {
-            "src": "/images/crimson-01.jpg",
+            "src": "/images/projects/ChillClubAwards/1920_toten_Top10 (00000).png",
             "alt": "First project image",
             "caption": "First visual"
           },
           {
-            "src": "/images/crimson-02.jpg",
+            "src": "/images/projects/ChillClubAwards/1920_toten_Top10 (00030).png",
+            "alt": "Second project image",
+            "caption": "Second visual"
+          },
+          {
+            "src": "/images/projects/ChillClubAwards/1920_toten_Top10 (00050).png",
+            "alt": "Second project image",
+            "caption": "Second visual"
+          },
+          {
+            "src": "/images/projects/ChillClubAwards/1920_toten_Top10 (00060).png",
             "alt": "Second project image",
             "caption": "Second visual"
           }
         ]
       },
       {
+        "type": "gif",
+        "src": "/images/projects/ChillClubAwards/borader.gif",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "text",
+        "heading": "Unveiling a New Music Era",
+        "body": "Centered on the \"Music First, Shared by All\" motto. Moving away from traditional glitzy award tropes, the integration of geometric lines and stacked blocks uses digital art to signal a new music era for Hong Kong's younger generation."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/ChillClubAwards/general_loop_04_960.webp",
+            "alt": "First project image",
+            "caption": "First visual"
+          },
+          {
+            "src": "/images/projects/ChillClubAwards/loopbg_toten_960.webp",
+            "alt": "Second project image",
+            "caption": "Second visual"
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/ChillClubAwards/bts01.png",
+            "alt": "First project image",
+            "caption": "First visual"
+          },
+          {
+            "src": "/images/projects/ChillClubAwards/bts02.png",
+            "alt": "Second project image",
+            "caption": "Second visual"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "3D Animation & Stage Graphics",
+        "body": "Driven by 3D animation and motion graphics synced to the ceremony music. The visuals depict block assembly, height shifts, and illumination flickers, tailored for both the main Video Wall and Video Ground displays during award reveals and broadcast transitions."
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/ChillClubAwards/loop_bg_intro_1890.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/ChillClubAwards/borader.gif",
+        "alt": "Animation process preview"
+      }
+    ]
+  },
+  {
+    "id": "chill-club",
+    "subtitle": "Music Live Show / LED Wall / Broadcast / Graphic Package",
+    "intro": "Chill Club is ViuTV’s flagship music show. This station ident transforms local cultural iconography into a 3D motion package.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/ChillClubAwards/borader.gif",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/ChillClub/LED_logoLoop.webp",
+            "alt": "Logo Loop - Concert LED",
+            "caption": "Logo Loop - Concert LED"
+          },
+          {
+            "src": "/images/projects/ChillClub/LED_intro.webp",
+            "alt": "Intro - Concert LED",
+            "caption": "Intro - Concert LED"
+          }          
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/images/projects/ChillClub/ID_noAlpha.webp",
+        "alt": "Bumper",
+        "caption": "Bumper"
+      },
+      {
+        "type": "image",
+        "src": "/images/projects/ChillClub/LED_roller.webp",
+        "alt": "Loop Background - Concert LED",
+        "caption": "Loop Background - Concert LED"
+      },
+      {
+        "type": "text",
+        "heading": "Core Concept",
+        "body": "The visual foundation distills three core local elements: Hong Kong’s neon sign heritage, Live House stage aesthetics, and street typography."
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/ChillClub/CC_aNewStage_ID_directorCut.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/ChillClubAwards/borader.gif",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "text",
+        "heading": "Native Motion Identity",
+        "body": "Engineered natively for motion graphics rather than animating a static logo."
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/ChillClub/banner_noAlpha.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/ChillClub/ChillClub_opening.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "text",
+        "heading": "Structural Materiality",
+        "body": "Translates the dual-line street typography into physical 3D geometry—combining metallic structural frames and volumetric light rays to recreate the atmosphere of HK nightscapes and live stages."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/ChillClub/Logo_B1.webp",
+            "alt": "First project image"
+          },
+          {
+            "src": "/images/projects/ChillClub/Light_walking_B2.webp",
+            "alt": "Second project image"
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/ChillClub/Light_A.webp",
+            "alt": "First project image"
+          },
+          {
+            "src": "/images/projects/ChillClub/__LED_2_set2.webp",
+            "alt": "Second project image"
+          }
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/ChillClubAwards/borader.gif",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/ChillClub/CC_rec_opening.webp",
+        "alt": "Animation process preview"
+      }
+    ]
+  },
+  {
+    "id": "inside-out",
+    "subtitle": "Talk Show / LED Wall / Broadcast / Graphic Package",
+    "intro": "A comprehensive broadcast motion package designed for a talk show centered around human sexuality and intimacy. The deliverable encompasses the main Opening title, Lower Thirds, Video Wall dynamic assets, and various Insert transitions.",
+    "blocks": [
+      {
         "type": "embed",
-        "src": "https://www.youtube.com/embed/VIDEO_ID",
+        "src": "https://www.youtube.com/embed/feCgaBoOVW0",
+        "title": "Project video"
+      },
+      {
+        "type": "text",
+        "heading": "Core Concept",
+        "body": "The core design challenge was to visually capture the essence of sexuality without crossing into explicit or vulgar imagery."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/inside-out/sex_opening_output_1920 (00062).png",
+            "alt": "Logo Loop - Concert LED"
+          },
+          {
+            "src": "/images/projects/inside-out/sex_opening_output_1920 (00081).png",
+            "alt": "Intro - Concert LED"
+          },
+          {
+            "src": "/images/projects/inside-out/sex_opening_output_1920 (00123).png",
+            "alt": "Intro - Concert LED"
+          },
+          {
+            "src": "/images/projects/inside-out/sex_opening_output_1920 (00327).png",
+            "alt": "Intro - Concert LED"
+          }          
+        ]
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/inside-out/banner_styleTest_v02.webp",
+            "alt": "First project image"
+          },
+          {
+            "src": "/images/projects/inside-out/transition_verB_output_1.webp",
+            "alt": "Second project image"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "body": "To strike the right balance, the concept utilizes a minimalist composition of balloons rendered in various natural skin tones. Through tight close-up camera moves, subtle physics of compression and inflation, and tactile surface tension, the visual imagery playfully simulates organic contours and intimate touch—creating a subtle, provocative, yet highly sophisticated visual metaphor."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/inside-out/videoWall_Test_v03_1_1.webp",
+            "alt": "First project image"
+          },
+          {
+            "src": "/images/projects/inside-out/videoWall_Test_v03_2_1.webp",
+            "alt": "First project image"
+          },
+          {
+            "src": "/images/projects/inside-out/videoWall_Test_v03_3_1.webp",
+            "alt": "First project image"
+          },
+          {
+            "src": "/images/projects/inside-out/videoWall_Test_v03_4_1.webp",
+            "alt": "First project image"
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    "id": "snooker-x-art",
+    "subtitle": "Snooker / Promo / Broadcast / Graphic Package",
+    "intro": "Traditional sports promos heavily rely on explosive energy, fast-paced cuts, and hyper-saturated visuals. However, the true intrigue of snooker lies beneath the quiet surface—in absolute calculation, geometry, and composure.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/snooker/snooker_Promo_2017_preview_v03_DirectorCut-04s.webp",
+        "alt": "Snooker cue"
+      },
+      {
+        "type": "text",
+        "heading": "Core Concept",
+        "body": "This project is a dedicated Motion Graphic Package designed specifically for Snooker Championship Promos and Trailers. Moving away from conventional sports promo tropes, the concept embraces a Minimalist Luxury aesthetic, meticulous knolling layouts, and \"The Frozen Moment\"—capturing that fraction of a second when time stops and the trajectory dictates win or loss."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/snooker/snooker_Promo_2017_preview_v03_DirectorCut-02s.webp",
+            "alt": "Snooker Tri"
+          },
+          {
+            "src": "/images/projects/snooker/snooker_Promo_2017_preview_v03_DirectorCut-03s.webp",
+            "alt": "Snooker Tri"
+          }         
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/snooker/snooker_Promo_2017_preview_v03_DirectorCut-01s.webp",
+        "alt": "Snooker Tri"
+      },
+      {
+        "type": "text",
+        "body": "Snooker is a game of pure geometry and physics. The core visual system features snooker equipment—cues, balls, chalk, positioning triangles, and cloth textures—arranged in hyper-ordered, knolling-style 3D grids. These clean, structured compositions reflect the player's tactical mindset and mathematical precision."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/snooker/snooker_Promo_2017_preview_v03_DirectorCut-05s.webp",
+            "alt": "Ball"
+          },
+          {
+            "src": "/images/projects/snooker/snooker_Promo_2017_preview_v03_DirectorCut-06s.webp",
+            "alt": "Board"
+          }
+        ]
+      },
+      
+      {
+        "type": "gif",
+        "src": "/images/projects/snooker/snooker_Promo_2017_preview_v03_DirectorCut-07s.webp",
+        "alt": "chalk"
+      },
+      {
+        "type": "text",
+        "body": "The dramatic tension of the promo comes from contrast: shifting from immaculate, static 3D arrangements to extreme slow-motion close-ups. The camera holds on the decisive moment. A single moment where victory or defeat hangs in silence."
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/snooker/snooker_Promo_2017_preview_end.webp",
+        "alt": "table"
+      }
+      
+    ]
+  },
+  {
+    "id": "wine-city",
+    "subtitle": "Rendering / Promo / Broadcast / Graphic Package",
+    "intro": "A refined visual Identity for a late-night talk show centered around wine appreciation and sophisticated urban lifestyle.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/wine/sh04.webp",
+        "alt": "Wine City"
+      },
+      {
+        "type": "text",
+        "heading": "Core Concept",
+        "body": "The core design metaphor merges the elegance of wine culture with the pulse of a thriving metropolis. The city becomes a vessel for flavor, where architecture and liquid craft collide."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/wine/sh01.webp",
+            "alt": "Wine City"
+          },
+          {
+            "src": "/images/projects/wine/sh02.webp",
+            "alt": "Wine City"
+          }         
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/wine/sh04_old.webp",
+        "alt": "Wine City"
+      },
+      {
+        "type": "text",
+        "heading": "Architectural Metaphor",
+        "body": "The city is re-imagined as a \"Tasting Metropolis\" (Liquid City). Select skyscrapers are subtly replaced by elegant, crystal wine glasses, seamlessly integrated into the skyline."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/wine/sh05.webp",
+            "alt": "Wine City"
+          },
+          {
+            "src": "/images/projects/wine/sh08.webp",
+            "alt": "Wine City"
+          }
+        ]
+      },
+      
+      {
+        "type": "gif",
+        "src": "/images/projects/wine/sh06.webp",
+        "alt": "Wine City"
+      },
+      {
+        "type": "text",
+        "heading": "Muted Gold & Satin Metals",
+        "body": "The architectural surfaces feature soft, diffuse reflections (Rough/Muted Gold), evoking a warm, luxurious, yet non-gawdy atmosphere. Slow, sweeping camera moves through an architectural maze of glass, gold, and light."
+      },
+      {
+        "type": "text",
+        "heading": "Cinematic Camera Pass",
+        "body": "Unhurried, macro-to-micro camera moves gliding through the city canyon, highlighting the interplay between sleek skyscrapers and glass contours."
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects//wine/sh07.webp",
+        "alt": "Wine City"
+      }
+      
+    ]
+  },
+  {
+    "id": "casino",
+    "subtitle": "Rendering / Compositing / Promo / Broadcast / Graphic Package",
+    "intro": "An exclusive broadcast motion graphic identity designed for a high-end casino and gaming program. Departing from chaotic neon aesthetics, this package defines a modern, high-roller visual language built on dark elegance and subtle metallic accents.",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "/images/projects/casino/treatMeAMeal_opening_directorCut (00295).png",
+        "alt": "Casino"
+      },
+      {
+        "type": "text",
+        "heading": "The Environment",
+        "body": "A mysterious, pitch-black space where dramatic low-key lighting selectively unveils the scene."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/casino/treatMeAMeal_opening_directorCut (00003).png",
+            "alt": "Casino"
+          },
+          {
+            "src": "/images/projects/casino/treatMeAMeal_opening_s1.webp",
+            "alt": "Casino"
+          }         
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/casino/treatMeAMeal_opening_s2.webp",
+        "alt": "Casino"
+      },
+      {
+        "type": "text",
+        "heading": "Gaming Imagery",
+        "body": "Photorealistic renders of spinning roulette wheels, cascading dice, floating chips, and velvet-textured gaming tables."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/casino/treatMeAMeal_opening_directorCut (00333).png",
+            "alt": "Ball"
+          },
+          {
+            "src": "/images/projects/casino/treatMeAMeal_opening_s3.webp",
+            "alt": "Board"
+          }
+        ]
+      },
+      
+      {
+        "type": "gif",
+        "src": "/images/projects/casino/element_loop-s.webp",
+        "alt": "Casino"
+      },
+      {
+        "type": "text",
+        "heading": "Lifestyle Integration",
+        "body": "Sleek wine and champagne glassware paired with fine dining setups to emphasize a VIP hospitality tone."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/casino/element_loop_b-s.webp",
+            "alt": "Casino"
+          },
+          {
+            "src": "/images/projects/casino/element_transition-s.webp",
+            "alt": "Casino"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Color & Tone",
+        "body": "Dominated by deep blacks and shadow tones, accented only by soft champagne gold highlights that catch the rim light."
+      }
+      
+    ]
+  },
+  {
+    "id": "face-fate",
+    "subtitle": "Rendering / Compositing / Promo / Broadcast / Graphic Package",
+    "intro": "An identity and motion graphics package designed for a multi-season broadcast show on Chinese physiognomy (面相學). Rooted in traditional philosophy, the concept bridges ancient wisdom with modern visual aesthetics by exploring the journey from the microscopic detail to the complete character profile.",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "/images/projects/face/op_end.webp",
+        "alt": "Point"
+      },
+      {
+        "type": "text",
+        "heading": "點．線．面 (Point, Line, Surface)",
+        "body": "Physiognomy is the art of observing micro-details to read macro destinies (觀人於微). A single mark, mole, or line on a face carries clues about a person's temperament, health, and fate."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/face/op_01.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/face/op_02.webp",
+            "alt": "Point"
+          }         
+        ]
+      },
+      {
+        "type": "text",
+        "body": "To reflect this philosophy, the visual identity adopts a minimalist point-and-line aesthetic :\nThe Point (點): Represents the initial observation—a single facial feature or landmark.\nThe Line (線): Represents the connectivity, thought process, and structural flow linking different features.\nThe Surface/Face (面): Represents the holistic personality and destiny formed when these elements converge."
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/face/op_03.webp",
+        "alt": "Point"
+      },
+      
+    
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/face/op_04.webp",
+            "alt": "Ball"
+          },
+          {
+            "src": "/images/projects/face/op_05.webp",
+            "alt": "Board"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "body": "Through constant movement and structural transformations, the design visualizes how endless variations (千變萬化) emerge from the simplest geometric foundation."
+      },
+      
+      {
+        "type": "gif",
+        "src": "/images/projects/face/five.webp",
+        "alt": "Casino"
+      },
+      {
+        "type": "text",
+        "heading": "Visual & Motion Execution",
+        "body": "Title Sequence & Ident: Dynamic motion graphics where minimalist dots and vector lines continuously branch, collide, and align—animating across 3D space to form stylized facial contours before dissolving into abstract data flows."
+      },
+      {
+        "type": "text",
+        "heading": "LED Wall Backgrounds",
+        "body": "Designed for the studio setup to create a sleek, immersive backdrop. Ambient grid lines, slow-moving point clouds, and subtle geometry react seamlessly behind host and guest interactions without distracting from the broadcast."
+      },
+      {
+        "type": "text",
+        "heading": "Minimalist Aesthetic",
+        "body": "A high-contrast, clean color palette paired with precise typography, balancing traditional cultural depth with contemporary graphic design."
+      },
+     
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/face/Banner_A.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/face/bar.webp",
+            "alt": "Point"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Consistency Across Seasons",
+        "body": "This core philosophy—Point to Line to Surface—served as the unifying design engine across all three seasons of the show. While color themes and studio layouts evolved per season, the fundamental motion logic and minimalist point-line visual identity provided a consistent, recognizable brand signature throughout the series' run."
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/face/ro_02.webp",
+        "alt": "Point"
+      }
+      
+      
+    ]
+  },
+  {
+    "id": "fifa",
+    "subtitle": "Character Animation / Promo / Broadcast / Graphic Package",
+    "intro": "All-new channel represents next-gen youth culture. Bold, fearless, and unpredictable.",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "/images/projects/fifa-promo/preview1-s.webp",
+        "alt": "Point"
+      },
+      {
+        "type": "text",
+        "heading": "Adaptive Two-Tone Systemn",
+        "body": "High-contrast, flexible dual-color palettes that invert dynamically with every beat."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/fifa-promo/transition-s.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/fifa-promo/worldCupMotion.webp",
+            "alt": "Point"
+          }         
+        ]
+      },
+      {
+        "type": "text",
+        "heading": "Kinetic Typography",
+        "body": "Ultra-bold typography featuring elastic stretching, warping, and 3D space collisions."
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/fifa-promo/preview2-s.webp",
+        "alt": "Point"
+      },
+      {
+        "type": "text",
+        "heading": "Dynamic Art & High Energy",
+        "body": "Fast-paced liquid flow, speed lines, and frame-by-frame graphics driven by high-BPM audio beats."
+      },      
+      {
+        "type": "gif",
+        "src": "/images/projects/fifa-promo/preview.webp",
+        "alt": "Casino"
+      },
+      {
+        "type": "text",
+        "heading": "Special Campaign Integration : World Cup",
+        "body": "Extends the channel’s signature Two-Tone & Kinetic Motion style directly into FIFA World Cup promos. High-octane player silhouettes with raw tournament energy."
+      }          
+    ]
+  },
+  {
+    "id": "dark-chef",
+    "subtitle": "Character Animation / Promo / Broadcast / Graphic Package",
+    "intro": "All-new channel represents next-gen youth culture. Bold, fearless, and unpredictable.",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "/images/projects/dark-chef/blackChef_clip_01.webp",
+        "alt": "Point"
+      },
+      {
+        "type": "text",
+        "heading": "Adaptive Two-Tone Systemn",
+        "body": "High-contrast, flexible dual-color palettes that invert dynamically with every beat."
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/dark-chef/blackChef_01.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/dark-chef/blackChef_04.jpg",
+            "alt": "Point"
+          }         
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/images/projects/dark-chef/blackChef_clip_04.webp",
+        "alt": "Point"
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/dark-chef/blackChef_02.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/dark-chef/blackChef_05.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/dark-chef/blackChef_clip_02.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/dark-chef/blackChef_clip_05.webp",
+            "alt": "Point"
+          }         
+        ]
+      },
+       {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/dark-chef/blackChef_03.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/dark-chef/blackChef_06.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/dark-chef/blackChef_clip_03.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/dark-chef/blackChef_clip_06.webp",
+            "alt": "Point"
+          }         
+        ]
+      },
+      {
+        "type": "embed",
+        "src": "https://www.youtube.com/embed/4eWFKIUSPEc",
+        "title": "Project video"
+      }        
+    ]
+  },
+  {
+    "id": "canon-printer",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/canon-printer/canon.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "embed",
+        "src": "https://www.youtube.com/embed/bgP2Pb2QVKU",
         "title": "Project video"
       }
+    ]
+  },
+  {
+    "id": "cash-boom",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/cash/cash01.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/cash/cash02.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/cash/cash03.webp",
+            "alt": "Point"
+          }         
+        ]
+      },
+      {
+        "type": "embed",
+        "src": "https://www.youtube.com/embed/IVKseBfzuSQ",
+        "title": "Project video"
+      }
+    ]
+  },
+  {
+    "id": "cosmatic-collection",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/cosmatic/con_demoShot_output.webp",
+        "alt": "Animation process preview"
+      },
+      
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/cosmatic/drop.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/cosmatic/olay.webp",
+            "alt": "Point"
+          }         
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/cosmatic/Olay_bubble.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/cosmatic/manyBall.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/cosmatic/packShot.webp",
+            "alt": "Point"
+          }         
+        ]
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/cosmatic/tjoy01.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/cosmatic/tjoy02.webp",
+            "alt": "Point"
+          }         
+        ]
+      }
+    ]
+  },
+  {
+    "id": "double-a-transformer",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/aa-transformer/aa_01.webp",
+        "alt": "Animation process preview"
+      },
+      
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/aa-transformer/aa-01.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/aa-transformer/aa-02.jpg",
+            "alt": "Point"
+          }         
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/aa-transformer/aa_02.webp",
+        "alt": "Animation process preview"
+      }
+    ]
+  },
+  {
+    "id": "dyson",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "/images/projects/dyson/hepa2.jpg",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "image",
+        "src": "/images/projects/dyson/hepa.jpg",
+        "alt": "Animation process preview"
+      },
+      
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/dyson/sh_filter_1_cut.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/dyson/sh_info_1.webp",
+            "alt": "Point"
+          }         
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/dyson/sh_smoke_2_cut.webp",
+        "alt": "Animation process preview"
+      }
+    ]
+  },
+  {
+    "id": "environment-making-of",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "/images/projects/env-making-of/clip_01.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/env-making-of/bl01.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/env-making-of/bl02.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/env-making-of/bl03.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/env-making-of/bl04.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/env-making-of/bl05.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/env-making-of/bl06.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/env-making-of/bl07.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/env-making-of/bl08.jpg",
+            "alt": "Point"
+          }               
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/env-making-of/clip_02.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/env-making-of/bl10.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/env-making-of/bl11.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/env-making-of/bl12.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/env-making-of/bl13.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/env-making-of/bl14.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/env-making-of/bl15.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/env-making-of/bl16.jpg",
+            "alt": "Point"
+          }           
+        ]
+      }
+    ]
+  },
+  {
+    "id": "film-vfx",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/film-vfx/srii_clip01.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/film-vfx/srii_clip02.webp",
+        "alt": "Animation process preview"
+      }
+    ]
+  },
+  {
+    "id": "future-hong-kong",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/future-hk/BRCG_v02_s (00066).png",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/future-hk/WIP_cities.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/future-hk/fhk01.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/future-hk/fhk02.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/future-hk/fhk03.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/future-hk/fhk04.webp",
+        "alt": "Animation process preview"
+      }
+    ]
+  },
+  {
+    "id": "hong-kong-film-awards",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/hkfa/hkfa_01.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/hkfa/hkfa_02.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/hkfa/hkfa_03.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "embed",
+        "src": "https://www.youtube.com/embed/KE30kX_X8gM",
+        "title": "Project video"
+      }
+    ]
+  },
+  {
+    "id": "ice-magic",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "embed",
+        "src": "https://www.youtube.com/embed/1UOOdrE-TnM",
+        "title": "Project video"
+      }
+
+    ]
+  },
+  {
+    "id": "lips",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/lips/lips_start_preview.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/lips/lips_preview.webp",
+        "alt": "Animation process preview"
+      }
+
+    ]
+  },
+  {
+    "id": "lunar-new-year",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/lunar/CNY_promo_preview.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/lunar/Lunar_01.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/lunar/Lunar_02.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/lunar/Lunar_03.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/lunar/Lunar_04.jpg",
+            "alt": "Point"
+          }       
+        ]
+      },      
+      {
+        "type": "image",
+        "src": "/images/projects/lunar/Lunar_04.jpg",
+        "alt": "Animation process preview"
+      }
+    ]
+  },
+  {
+    "id": "meal-factory",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/meal-factory/dinnerTonight_endLoop.webp",
+        "alt": "Animation process preview"
+      },      
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/meal-factory/loop_a.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/meal-factory/loop_c.webp",
+            "alt": "Point"
+          }
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/meal-factory/dinnerTonight_endLoop.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "video",
+        "src": "/images/projects/meal-factory/opening_preview_v03.mp4",
+        "poster": "/images/projects/meal-factory/opening.jpg"
+      }
+    ]
+  },
+  {
+    "id": "metronome",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/metronome/metro_wide_PP-s.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/metronome/mv_CG_cut_01-s.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/metronome/mv_CG_cut_03-s.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/metronome/mv_CG_cut_04-s.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/metronome/mv_CG_cut_05-s.webp",
+            "alt": "Point"
+          }       
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/metronome/mv_CG_cut_02-s.webp",
+        "alt": "Animation process preview"
+      }
+    ]
+  },
+  {
+    "id": "motor-transformer",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/motor-transformer/03-02_0531.webp",
+        "alt": "Animation process preview"
+      }
+
+    ]
+  },
+  {
+    "id": "travel-factory",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/travel-factory/tfc02.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/travel-factory/tf02.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/travel-factory/tf03.jpg",
+            "alt": "Point"
+          }    
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/travel-factory/tfc03.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/travel-factory/tf05.jpg",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/travel-factory/tf06.jpg",
+            "alt": "Point"
+          }    
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/travel-factory/tfc04.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/travel-factory/tfc05.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "embed",
+        "src": "https://www.youtube.com/embed/iVt4H8sDAw0",
+        "title": "Project video"
+      }
+    ]
+  },
+  {
+    "id": "vehicle-destruction",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "embed",
+        "src": "https://www.youtube.com/embed/XXUZYr3fvkc",
+        "title": "Project video"
+      }
+
+    ]
+  },
+  {
+    "id": "vfx-reel",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "embed",
+        "src": "https://www.youtube.com/embed//WFxXS-1vcRQ",
+        "title": "Project video"
+      }
+
+    ]
+  },
+  {
+    "id": "viu-sport",
+    "subtitle": "Motion Graphics / Visual Development",
+    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "blocks": [
+      {
+        "type": "gif",
+        "src": "/images/projects/sport/vs06.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/sport/vs01.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/sport/vs02.webp",
+            "alt": "Point"
+          }    
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/sport/vs04.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gallery",
+        "items": [
+          {
+            "src": "/images/projects/sport/vs03.webp",
+            "alt": "Point"
+          },
+          {
+            "src": "/images/projects/sport/vs05.webp",
+            "alt": "Point"
+          }    
+        ]
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/sport/vs07.webp",
+        "alt": "Animation process preview"
+      },
+      {
+        "type": "gif",
+        "src": "/images/projects/sport/vs08.webp",
+        "alt": "Animation process preview"
+      }
+
     ]
   }
 ]

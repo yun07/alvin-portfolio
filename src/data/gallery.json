@@ -1,6 +1,6 @@
 [
   {
-    "src": "/images/ChillClub-cover.png",
+    "src": "/images/covers/ChillClub-cover.png",
     "alt": "Abstract macro of swirling light blue and white liquid paint lines against a black background",
     "title": "Chill Club",
     "description": "Close-up of fluid acrylic pour art: thin cyan and white trails curve across a dark field, with tiny white specks that read like glitter or distant stars.",
@@ -8,12 +8,10 @@
       "Motion Graphic",
       "Identity"
     ],
-    "date": "2024-03-15",
-    "photographer": "Solen Feyissa",
-    "photographerLink": "https://unsplash.com/@solenfeyissa"
+    "date": "2024-03-15"
   },
   {
-    "src": "/images/CCA-cover.png",
+    "src": "/images/covers/CCA-cover.png",
     "alt": "Aerial view of the Chicago skyline beside Lake Michigan under a pink and purple sunset sky",
     "title": "Chill Club Awards",
     "description": "High-angle photograph of downtown Chicago at golden hour, with the Willis Tower and neighboring skyscrapers catching warm light against Lake Michigan.",
@@ -21,26 +19,22 @@
       "Motion Graphic",
       "Identity"
     ],
-    "date": "2024-02-20",
-    "photographer": "Pedro Lastra",
-    "photographerLink": "https://unsplash.com/@peterlaster"
+    "date": "2024-02-20"
   },
   {
-    "src": "/images/blackChef-cover.png",
+    "src": "/images/covers/blackChef-cover.png",
     "alt": "Tropical beach at sunset with a gentle wave on white sand and turquoise water under a soft orange sky",
     "title": "Dark Chef",
     "description": "A quiet shoreline where wet sand meets calm turquoise water. The sun sits low on the horizon beside a dark silhouette of palms.",
     "categories": [
       "Motion Graphic"
     ],
-    "date": "2024-01-10",
-    "photographer": "Sean Oulashin",
-    "photographerLink": "https://unsplash.com/@oulashin"
+    "date": "2024-01-10"
   },
   {
-    "src": "/images/BRCG-cover.png",
+    "src": "/images/covers/BRCG-cover.png",
     "alt": "Macro close-up of a cluster of glowing pink, orange, blue, and green miniature light bulbs",
-    "title": "Future City",
+    "title": "Future Hong Kong",
     "description": "A dense bundle of miniature holiday bulbs photographed up close. Shallow depth of field turns the surrounding lights into colorful bokeh.",
     "categories": [
       "VFX",
@@ -48,12 +42,10 @@
       "Environment",
       "Houdini"
     ],
-    "date": "2024-03-05",
-    "photographer": "Becca Romine",
-    "photographerLink": "https://unsplash.com/@brecca85"
+    "date": "2024-03-05"
   },
   {
-    "src": "/images/FaceFate-cover.png",
+    "src": "/images/covers/FaceFate-cover.png",
     "alt": "Abstract fluid painting with swirls of red, pink, and white paint and gold glitter",
     "title": "Face Fate",
     "description": "Acrylic-pour marbling in deep reds and pinks, streaked with white and flecks of metallic gold.",
@@ -64,38 +56,33 @@
       "Simulation",
       "Houdini"
     ],
-    "date": "2024-02-28",
-    "photographer": "Didssph",
-    "photographerLink": "https://unsplash.com/@didsss"
+    "date": "2024-02-28"
   },
   {
-    "src": "/images/worldcup-cover.png",
+    "src": "/images/covers/worldcup-cover.png",
     "alt": "Side view of an adult male lion with a full mane walking through green grass past a tree",
-    "title": "Broadcast World Cup Graphic Package",
+    "title": "Fifa",
     "description": "A tawny male lion captured mid-stride in a grassy enclosure, its dark mane catching the daylight.",
     "categories": [
       "Motion Graphic",
       "Identity",
       "Animation"
     ],
-    "date": "2024-01-25",
-    "photographer": "Francesco",
-    "photographerLink": "https://unsplash.com/@detpho"
+    "date": "2024-01-25"
   },
   {
-    "src": "/images/CNY-cover.jpg",
+    "src": "/images/covers/CNY-cover.jpg",
     "alt": "Seated audience in a darkened conference hall looking toward a presentation",
-    "title": "Broadcast Lunar New Year Promo",
+    "title": "Lunar New Year",
     "description": "Rows of people sit in a dim indoor venue, facing off-camera toward a stage. A grid of out-of-focus lights fills the wall above them.",
     "categories": [
       "Motion Graphic"
     ],
     "date": "2024-04-12",
-    "photographer": "Headway",
-    "photographerLink": "https://unsplash.com/@headwayio"
+    "photographer": "Headway"
   },
   {
-    "src": "/images/con-cover.jpg",
+    "src": "/images/covers/con-cover.jpg",
     "alt": "Snow-dusted mountain peaks rising above a thick sea of clouds at sunrise",
     "title": "Cosmatic Collection",
     "description": "Jagged alpine summits pierce a valley filled with inversion cloud, photographed from a high ridge under an orange and lavender sky in Randa, Switzerland.",
@@ -103,25 +90,22 @@
       "VFX",
       "TVC"
     ],
-    "date": "2024-03-22",
-    "photographer": "Sam Ferrara",
-    "photographerLink": "https://unsplash.com/@samferrara"
+    "date": "2024-03-22"
   },
   {
-    "src": "/images/dyson-cover.jpg",
+    "src": "/images/covers/dyson-cover.jpg",
     "alt": "Woman in a camouflage jacket holding a Canon DSLR to her eye against a blurred city night backdrop",
-    "title": "Dysnon",
+    "title": "Dyson",
     "description": "A photographer shoots during blue hour. City windows and streetlights fall out of focus behind her, leaving warm bokeh against cool urban blues.",
     "categories": [
       "Machine",
       "VFX",
       "TVC"
     ],
-    "date": "2024-04-08",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-04-08"
   },
   {
-    "src": "/images/hkfa2018-cover.jpg",
+    "src": "/images/covers/hkfa2018-cover.jpg",
     "alt": "Slice of layered sponge cake topped with fresh raspberries on a dark plate",
     "title": "Hong Kong Film Awards",
     "description": "A tall slice of light sponge and cream, streaked with raspberry, finished with a cluster of fresh berries on a charcoal plate.",
@@ -129,24 +113,21 @@
       "Motion Graphic",
       "Art"
     ],
-    "date": "2024-04-15",
-    "photographer": "Anna Tukhfatullina Food Photographer/Stylist",
-    "photographerLink": "https://unsplash.com/@anna_tukhfatullina"
+    "date": "2024-04-15"
   },
   {
-    "src": "/images/lips-cover.jpg",
+    "src": "/images/covers/lips-cover.jpg",
     "alt": "Hiker with a red backpack standing on a rocky ledge overlooking misty mountain peaks",
-    "title": "Lips Animation",
+    "title": "Lips",
     "description": "A lone trekker pauses on a craggy outcrop in the Dolomites, looking out over peaks wrapped in low cloud.",
     "categories": [
       "Animation"
     ],
     "date": "2024-03-30",
-    "photographer": "Lucas Clara",
-    "photographerLink": "https://unsplash.com/@lux17"
+    "photographer": "Lucas Clara"
   },
   {
-    "src": "/images/metro-cover.png",
+    "src": "/images/covers/metro-cover.png",
     "alt": "Close-up of a hand pulling a coffee-bean trier from a professional roasting machine",
     "title": "Metronome",
     "description": "A roaster checks bean development by drawing a sample with a wooden-handled trier, the industrial drum softly blurred behind.",
@@ -154,37 +135,32 @@
       "Motion Graphic",
       "VFX"
     ],
-    "date": "2024-04-01",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-04-01"
   },
   {
-    "src": "/images/sex-cover.png",
+    "src": "/images/covers/sex-cover.png",
     "alt": "Computer monitor showing a Google Search Console performance dashboard with clicks, impressions, and a line chart",
-    "title": "Graphic Package - Sex",
+    "title": "Inside Out",
     "description": "A slightly angled photo of SEO metrics on screen: total clicks, impressions, average CTR, and average position over several months.",
     "categories": [
       "Motion Graphic",
       "Animation",
       "Identity"
     ],
-    "date": "2024-02-14",
-    "photographer": "Myriam Jessier",
-    "photographerLink": "https://unsplash.com/@mjessier"
+    "date": "2024-02-14"
   },
   {
-    "src": "/images/super-cover.jpg",
+    "src": "/images/covers/super-cover.jpg",
     "alt": "Two people collaborating at a silver laptop, one pointing at the screen and the other near the trackpad",
-    "title": "Installation X Animation",
+    "title": "Travel Factory",
     "description": "A close side view of a shared laptop session: one hand points at the display while another rests by the keyboard.",
     "categories": [
       "Animation"
     ],
-    "date": "2024-01-18",
-    "photographer": "John Schnobrich",
-    "photographerLink": "https://unsplash.com/@johnishappysometimes"
+    "date": "2024-01-18"
   },
   {
-    "src": "/images/ViuSportPromo-cover.jpg",
+    "src": "/images/covers/ViuSportPromo-cover.jpg",
     "alt": "Television in a dark room displaying the red Netflix logo with red ambient backlighting",
     "title": "Viu Sport",
     "description": "A flat-screen TV shows the Netflix wordmark. Red LED glow lights the wall and a game controller sits on the media console below.",
@@ -192,33 +168,30 @@
       "Identity",
       "Motion Graphic"
     ],
-    "date": "2024-04-05",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-04-05"
   },
   {
-    "src": "/images/dinner-cover.jpg",
+    "src": "/images/covers/dinner-cover.jpg",
     "alt": "Vertical view down a wet city street at dusk with skyscrapers, a bus, and headlights reflecting on the pavement",
     "title": "Meal Factory",
     "description": "Blue-hour street canyon: traffic, a city bus, and building lights bounce off rain-dark asphalt between tall towers.",
     "categories": [
       "Motion Graphic"
     ],
-    "date": "2024-04-20",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-04-20"
   },
   {
-    "src": "/images/Meal-cover.png",
+    "src": "/images/covers/Meal-cover.png",
     "alt": "Two-story gray house with white trim, a stone chimney, and palm trees under a bright blue sky",
     "title": "Casino",
     "description": "A well-kept suburban home with dormers, a wraparound porch, and a light stone chimney, set on a green lawn among palms.",
     "categories": [
       "Motion Graphic"
     ],
-    "date": "2024-04-18",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-04-18"
   },
   {
-    "src": "/images/wine-cover.png",
+    "src": "/images/covers/wine-cover.png",
     "alt": "Studio photo of a modern grey upholstered chair with a high back and light wooden tapered legs",
     "title": "Wine City",
     "description": "A single contemporary dining chair in heather-grey fabric, photographed against a plain studio backdrop. Light wood legs and a softly flared back give it a quiet, furniture-catalog look.",
@@ -226,12 +199,10 @@
       "Motion Graphic",
       "Architecture"
     ],
-    "date": "2024-04-16",
-    "photographer": "Sam Moghadam",
-    "photographerLink": "https://unsplash.com/@sammoghadam"
+    "date": "2024-04-16"
   },
   {
-    "src": "/images/snooker-cover.png",
+    "src": "/images/covers/snooker-cover.png",
     "alt": "Bright yellow modern armchair in a minimalist living room with a brass floor lamp and geometric wall art",
     "title": "Snooker X Art",
     "description": "A mustard-yellow fabric chair sits as the focal point of a spare living room, flanked by a slim brass lamp and a round marble side table.",
@@ -239,22 +210,10 @@
       "Art",
       "Motion Graphic"
     ],
-    "date": "2024-04-14",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-04-14"
   },
   {
-    "src": "/images/Drama-cover.jpg",
-    "alt": "Top-down aerial of turquoise ocean meeting a rocky, sandy shore beside dark cliffs",
-    "title": "Typo Motion Design",
-    "description": "Looking straight down on a wild coast: clear turquoise water, a strip of tan sand studded with rocks, and a steep cliff edge with patches of green.",
-    "categories": [
-      "Motion Graphic"
-    ],
-    "date": "2024-04-11",
-    "photographer": "Unsplash Photographer"
-  },
-  {
-    "src": "/images/synthetic-environment-cover.png",
+    "src": "/images/covers/synthetic-environment-cover.png",
     "alt": "Top-down view of three gourmet bowls with grilled meat, fried cubes, herbs, and chili on a rustic wooden table",
     "title": "Auto Synthetic Pipeline",
     "description": "A flat-lay of three wide ceramic bowls plus a small ramekin of sauce, garnished with red onion, parsley, cashews, and whole chilies.",
@@ -262,11 +221,10 @@
       "Tools",
       "AI"
     ],
-    "date": "2024-04-13",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-04-13"
   },
   {
-    "src": "/images/TerrainTool-cover.png",
+    "src": "/images/covers/TerrainTool-cover.png",
     "alt": "Satellite view of the contiguous United States at night, showing glowing city lights against a dark Earth",
     "title": "Procedural Terrain",
     "description": "Orbital composite of North America after dark. Dense golden lights mark the Northeast corridor, Great Lakes, Florida, Texas, and the West Coast.",
@@ -274,12 +232,10 @@
       "Houdini",
       "Tools"
     ],
-    "date": "2024-04-09",
-    "photographer": "NASA",
-    "photographerLink": "https://unsplash.com/@nasa"
+    "date": "2024-04-09"
   },
   {
-    "src": "/images/Urban_Framework-cover.png",
+    "src": "/images/covers/Urban_Framework-cover.png",
     "alt": "Woman in a bright yellow cropped hoodie and matching joggers posing on an outdoor basketball court by the ocean",
     "title": "Urban Framework",
     "description": "Full-length fashion shot: a model in a matching yellow tracksuit and white heeled boots stands on asphalt beside a hoop, ocean and sky behind her.",
@@ -287,12 +243,10 @@
       "Architecture",
       "Tools"
     ],
-    "date": "2024-04-07",
-    "photographer": "Dom Hill",
-    "photographerLink": "https://unsplash.com/@domjewel"
+    "date": "2024-04-07"
   },
   {
-    "src": "/images/VehicleDestruction-cover.png",
+    "src": "/images/covers/VehicleDestruction-cover.png",
     "alt": "Dark Porsche Panamera Turbo driving on a highway at twilight, rear three-quarter view with motion blur",
     "title": "Vehicle Destruction",
     "description": "A rolling shot of a black Panamera Turbo on a multi-lane highway. The rear spoiler is up and the LED taillight bar glows red against a cool dusk sky.",
@@ -300,22 +254,20 @@
       "Automotive",
       "Runtime VFX"
     ],
-    "date": "2024-04-06",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-04-06"
   },
   {
-    "src": "/images/cash-cover.jpg",
+    "src": "/images/covers/cash-cover.jpg",
     "alt": "Overhead arrangement of a Nikon DSLR, orange Fjallraven backpack, Field Notes notebook, and maps on a paper topographic map",
     "title": "Cash Boom",
     "description": "Travel kit laid out on an unfolded map: a Nikon D4S, an orange Kanken pack, a Field Notes booklet, and an Ordnance Survey sheet for the New Forest.",
     "categories": [
       "VFX"
     ],
-    "date": "2024-04-04",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-04-04"
   },
   {
-    "src": "/images/motor-cover.jpg",
+    "src": "/images/covers/motor-cover.jpg",
     "alt": "Smartphone on a wooden table displaying syntax-highlighted code in a dark editor theme",
     "title": "Motor Transformer",
     "description": "A phone screen shows HTML and JavaScript with colorful highlighting. The wooden desk falls into soft bokeh around the device.",
@@ -324,59 +276,54 @@
       "VFX",
       "Animation"
     ],
-    "date": "2024-04-03",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-04-03"
   },
   {
-    "src": "/images/aa-cover.jpg",
+    "src": "/images/covers/aa-cover.jpg",
     "alt": "Winding dirt path through a dense green forest with sunlight filtering through the trees",
-    "title": "Humen Transformer",
+    "title": "Double A Transformer",
     "description": "A trail recedes into tall trunks and undergrowth at golden hour. Warm light rakes across bark and leaves, leaving long, quiet shadows.",
     "categories": [
       "Automotive",
       "VFX",
       "Animation"
     ],
-    "date": "2024-05-01",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-05-01"
   },
   {
-    "src": "/images/WFC-cover.png",
+    "src": "/images/covers/WFC-cover.png",
     "alt": "Wide one-point perspective down a Manhattan avenue lined with skyscrapers and yellow taxis",
-    "title": "Wave Function Collection",
+    "title": "Wave Function Collapse",
     "description": "Looking along a multi-lane New York street: yellow cabs, pedestrians, traffic lights, and an urban canyon of glass and stone.",
     "categories": [
       "Tools",
       "Architecture"
     ],
-    "date": "2024-05-02",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-05-02"
   },
   {
-    "src": "/images/filmVFX-cover.jpg",
+    "src": "/images/covers/filmVFX-cover.jpg",
     "alt": "Underwater view looking up at churning white bubbles and dark teal water beneath a crashing wave",
     "title": "Film VFX",
     "description": "Shot from below the surface as a wave breaks overhead. Foam and bubbles glow cyan where light hits, then fall into near-black water.",
     "categories": [
       "VFX"
     ],
-    "date": "2024-05-03",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-05-03"
   },
   {
-    "src": "/images/GameFX-cover.png",
+    "src": "/images/covers/GameFX-cover.png",
     "alt": "Close-up of a giant panda chewing a bundle of green bamboo leaves",
-    "title": "Ice Combat VFX",
+    "title": "Ice Magic",
     "description": "A giant panda holds fresh bamboo to its mouth. Black eye patches and rounded ears sit sharp against green foliage.",
     "categories": [
       "Runtime VFX",
       "Unreal"
     ],
-    "date": "2024-05-04",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-05-04"
   },
   {
-    "src": "/images/printer-cover.jpg",
+    "src": "/images/covers/printer-cover.jpg",
     "alt": "Cream button-tufted armchair with decorative white turned legs against a plain light gray studio background",
     "title": "Canon Printer",
     "description": "Studio portrait of a low-profile wingback chair in off-white fabric, diamond tufting on the back, and ornate stacked-ball front legs.",
@@ -385,11 +332,10 @@
       "Architecture",
       "TVC"
     ],
-    "date": "2024-05-05",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-05-05"
   },
   {
-    "src": "/images/VFX-showrool-cover.png",
+    "src": "/images/covers/VFX-showrool-cover.png",
     "alt": "Close-up of a dark, grainy concrete or stone surface with a soft vignette",
     "title": "VFX Reel",
     "description": "A near-black industrial texture: mottled charcoal, fine scratches, and edges that fall into a heavy vignette.",
@@ -399,11 +345,10 @@
       "TVC",
       "Houdini"
     ],
-    "date": "2024-05-06",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-05-06"
   },
   {
-    "src": "/images/mograph-cover.jpg",
+    "src": "/images/covers/mograph-cover.jpg",
     "alt": "Top-down colorful Buddha bowl with seared tofu, corn, cucumber, red cabbage, tomatoes, and quail eggs",
     "title": "Motion Design Reel",
     "description": "A paper bowl packed in sections: golden tofu cubes, corn, cucumber, edamame, cabbage, cherry tomatoes, and two small boiled eggs, finished with scallions.",
@@ -411,11 +356,10 @@
       "Motion Graphic",
       "Houdini"
     ],
-    "date": "2024-05-07",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-05-07"
   },
   {
-    "src": "/images/ENV-cover.jpg",
+    "src": "/images/covers/ENV-cover.jpg",
     "alt": "Long-exposure photograph of the Milky Way galactic core with yellow, orange, and blue star clouds",
     "title": "Environment Making Of",
     "description": "The bright central band of the galaxy fills the frame: warm core, dark dust lanes, and a field of countless stars.",
@@ -423,11 +367,10 @@
       "VFX",
       "Film"
     ],
-    "date": "2024-05-08",
-    "photographer": "Unsplash Photographer"
+    "date": "2024-05-08"
   },
   {
-    "src": "/images/Buildingtool-cover.png",
+    "src": "/images/covers/Buildingtool-cover.png",
     "alt": "Young woman with wavy auburn hair in a white t-shirt, looking aside against a wall with bright turquoise beams",
     "title": "Procedural Building",
     "description": "Soft-lit portrait. A cyan architectural frame crosses behind the subject, who wears a white shirt with a partial QUEENS logo.",
@@ -435,8 +378,17 @@
       "Architecture",
       "Tools"
     ],
-    "date": "2024-05-09",
-    "photographer": "Aiony Haust",
-    "photographerLink": "https://unsplash.com/@aiony"
+    "date": "2024-05-09"
+  },
+  {
+    "src": "/images/covers/SkinTool-cover.png",
+    "alt": "Young woman with wavy auburn hair in a white t-shirt, looking aside against a wall with bright turquoise beams",
+    "title": "Skin Tool",
+    "description": "Soft-lit portrait. A cyan architectural frame crosses behind the subject, who wears a white shirt with a partial QUEENS logo.",
+    "categories": [
+      "Architecture",
+      "Tools"
+    ],
+    "date": "2024-05-09"
   }
 ]
