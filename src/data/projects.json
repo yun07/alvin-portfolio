@@ -48,8 +48,8 @@
       {
         "type": "image",
         "src": "/images/projects/auto-synthetic-pipeline/visualisation.png",
-        "alt": "Visual development breakdown",
-        "caption": "Visual development and compositing breakdown"
+        "alt": "visualisation",
+        "caption": "visualisation"
       },
       {
         "type": "text",
@@ -201,13 +201,13 @@
       {
         "type": "gif",
         "src": "/images/projects/ChillClubAwards/borader.gif",
-        "alt": "Animation process preview"
+        "alt": "ChillClubAwards"
       },
       {
         "type": "image",
         "src": "/images/projects/ChillClubAwards/general_loop_01_1890.webp",
-        "alt": "Visual development breakdown",
-        "caption": "Visual development and compositing breakdown"
+        "alt": "general_loop",
+        "caption": "General Loop"
       },
       {
         "type": "text",
@@ -217,12 +217,12 @@
       {
         "type": "gif",
         "src": "/images/projects/ChillClubAwards/1920_toten_backStage_1.webp",
-        "alt": "Animation process preview"
+        "alt": "ChillClubAwards"
       },
       {
         "type": "gif",
         "src": "/images/projects/ChillClubAwards/borader.gif",
-        "alt": "Animation process preview"
+        "alt": "ChillClubAwards"
       },
       {
         "type": "text",
@@ -234,30 +234,26 @@
         "items": [
           {
             "src": "/images/projects/ChillClubAwards/1920_toten_Top10 (00000).png",
-            "alt": "First project image",
-            "caption": "First visual"
+            "alt": "Top10"
           },
           {
             "src": "/images/projects/ChillClubAwards/1920_toten_Top10 (00030).png",
-            "alt": "Second project image",
-            "caption": "Second visual"
+            "alt": "Top10"
           },
           {
             "src": "/images/projects/ChillClubAwards/1920_toten_Top10 (00050).png",
-            "alt": "Second project image",
-            "caption": "Second visual"
+            "alt": "Top10"
           },
           {
             "src": "/images/projects/ChillClubAwards/1920_toten_Top10 (00060).png",
-            "alt": "Second project image",
-            "caption": "Second visual"
+            "alt": "Top10"
           }
         ]
       },
       {
         "type": "gif",
         "src": "/images/projects/ChillClubAwards/borader.gif",
-        "alt": "Animation process preview"
+        "alt": "ChillClubAwards"
       },
       {
         "type": "text",
@@ -269,13 +265,11 @@
         "items": [
           {
             "src": "/images/projects/ChillClubAwards/general_loop_04_960.webp",
-            "alt": "First project image",
-            "caption": "First visual"
+            "alt": "loop Logo"
           },
           {
             "src": "/images/projects/ChillClubAwards/loopbg_toten_960.webp",
-            "alt": "Second project image",
-            "caption": "Second visual"
+            "alt": "loop"
           }
         ]
       },
@@ -285,12 +279,12 @@
           {
             "src": "/images/projects/ChillClubAwards/bts01.png",
             "alt": "First project image",
-            "caption": "First visual"
+            "caption": "Houdini"
           },
           {
             "src": "/images/projects/ChillClubAwards/bts02.png",
             "alt": "Second project image",
-            "caption": "Second visual"
+            "caption": "Houdini"
           }
         ]
       },
@@ -302,12 +296,12 @@
       {
         "type": "gif",
         "src": "/images/projects/ChillClubAwards/loop_bg_intro_1890.webp",
-        "alt": "Animation process preview"
+        "alt": "ChillClubAwards"
       },
       {
         "type": "gif",
         "src": "/images/projects/ChillClubAwards/borader.gif",
-        "alt": "Animation process preview"
+        "alt": "ChillClubAwards"
       }
     ]
   },
@@ -319,7 +313,7 @@
       {
         "type": "gif",
         "src": "/images/projects/ChillClubAwards/borader.gif",
-        "alt": "Animation process preview"
+        "alt": "ChillClubIdent"
       },
       {
         "type": "gallery",
@@ -356,12 +350,12 @@
       {
         "type": "gif",
         "src": "/images/projects/ChillClub/CC_aNewStage_ID_directorCut.webp",
-        "alt": "Animation process preview"
+        "alt": "ChillClubIdent"
       },
       {
         "type": "gif",
         "src": "/images/projects/ChillClubAwards/borader.gif",
-        "alt": "Animation process preview"
+        "alt": "ChillClubIdent"
       },
       {
         "type": "text",
@@ -371,12 +365,12 @@
       {
         "type": "gif",
         "src": "/images/projects/ChillClub/banner_noAlpha.webp",
-        "alt": "Animation process preview"
+        "alt": "ChillClubIdent"
       },
       {
         "type": "gif",
         "src": "/images/projects/ChillClub/ChillClub_opening.webp",
-        "alt": "Animation process preview"
+        "alt": "ChillClubIdent"
       },
       {
         "type": "text",
@@ -412,12 +406,12 @@
       {
         "type": "gif",
         "src": "/images/projects/ChillClubAwards/borader.gif",
-        "alt": "Animation process preview"
+        "alt": "ChillClubIdent"
       },
       {
         "type": "gif",
         "src": "/images/projects/ChillClub/CC_rec_opening.webp",
-        "alt": "Animation process preview"
+        "alt": "ChillClubIdent"
       }
     ]
   },
@@ -886,19 +880,15 @@
   },
   {
     "id": "dark-chef",
-    "subtitle": "Character Animation / Promo / Broadcast / Graphic Package",
-    "intro": "All-new channel represents next-gen youth culture. Bold, fearless, and unpredictable.",
+    "subtitle": "Opening / Promo / Broadcast / Graphic Package",
+    "intro": "",
     "blocks": [
       {
         "type": "image",
         "src": "/images/projects/dark-chef/blackChef_clip_01.webp",
         "alt": "Point"
       },
-      {
-        "type": "text",
-        "heading": "Adaptive Two-Tone Systemn",
-        "body": "High-contrast, flexible dual-color palettes that invert dynamically with every beat."
-      },
+      
       {
         "type": "gallery",
         "items": [
@@ -968,13 +958,13 @@
   },
   {
     "id": "canon-printer",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "CG Demo / Visualization",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/canon-printer/canon.webp",
-        "alt": "Animation process preview"
+        "alt": "canon-printer"
       },
       {
         "type": "embed",
@@ -985,13 +975,13 @@
   },
   {
     "id": "cash-boom",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "Maya / cloth simulation ",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/cash/cash01.webp",
-        "alt": "Animation process preview"
+        "alt": "cash-boom"
       },
       {
         "type": "gallery",
@@ -1015,13 +1005,13 @@
   },
   {
     "id": "cosmatic-collection",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "TVC / CG Demo",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/cosmatic/con_demoShot_output.webp",
-        "alt": "Animation process preview"
+        "alt": "cosmatic"
       },
       
       {
@@ -1040,7 +1030,7 @@
       {
         "type": "gif",
         "src": "/images/projects/cosmatic/Olay_bubble.webp",
-        "alt": "Animation process preview"
+        "alt": "cosmatic"
       },
       {
         "type": "gallery",
@@ -1072,13 +1062,13 @@
   },
   {
     "id": "double-a-transformer",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "Modeling / Animation / TVC",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/aa-transformer/aa_01.webp",
-        "alt": "Animation process preview"
+        "alt": "aa"
       },
       
       {
@@ -1097,24 +1087,24 @@
       {
         "type": "gif",
         "src": "/images/projects/aa-transformer/aa_02.webp",
-        "alt": "Animation process preview"
+        "alt": "aa"
       }
     ]
   },
   {
     "id": "dyson",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "TVC / Product / ",
+    "intro": "",
     "blocks": [
       {
         "type": "image",
         "src": "/images/projects/dyson/hepa2.jpg",
-        "alt": "Animation process preview"
+        "alt": "dyson"
       },
       {
         "type": "image",
         "src": "/images/projects/dyson/hepa.jpg",
-        "alt": "Animation process preview"
+        "alt": "dyson"
       },
       
       {
@@ -1133,19 +1123,19 @@
       {
         "type": "gif",
         "src": "/images/projects/dyson/sh_smoke_2_cut.webp",
-        "alt": "Animation process preview"
+        "alt": "dyson"
       }
     ]
   },
   {
     "id": "environment-making-of",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "Environment / Modeling / Lighting / Rendering / Matte Paint/ ",
+    "intro": "",
     "blocks": [
       {
         "type": "image",
         "src": "/images/projects/env-making-of/clip_01.webp",
-        "alt": "Animation process preview"
+        "alt": "environment"
       },
       {
         "type": "gallery",
@@ -1187,7 +1177,7 @@
       {
         "type": "gif",
         "src": "/images/projects/env-making-of/clip_02.webp",
-        "alt": "Animation process preview"
+        "alt": "environment"
       },
       {
         "type": "gallery",
@@ -1226,77 +1216,77 @@
   },
   {
     "id": "film-vfx",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "3ds Max / Dynamic /  ",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/film-vfx/srii_clip01.webp",
-        "alt": "Animation process preview"
+        "alt": "file_vfx"
       },
       {
         "type": "gif",
         "src": "/images/projects/film-vfx/srii_clip02.webp",
-        "alt": "Animation process preview"
+        "alt": "file_vfx"
       }
     ]
   },
   {
     "id": "future-hong-kong",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "Promo / Procedural Gneeration / Houdini",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/future-hk/BRCG_v02_s (00066).png",
-        "alt": "Animation process preview"
+        "alt": "FutureHK"
       },
       {
         "type": "gif",
         "src": "/images/projects/future-hk/WIP_cities.webp",
-        "alt": "Animation process preview"
+        "alt": "FutureHK"
       },
       {
         "type": "gif",
         "src": "/images/projects/future-hk/fhk01.webp",
-        "alt": "Animation process preview"
+        "alt": "FutureHK"
       },
       {
         "type": "gif",
         "src": "/images/projects/future-hk/fhk02.webp",
-        "alt": "Animation process preview"
+        "alt": "FutureHK"
       },
       {
         "type": "gif",
         "src": "/images/projects/future-hk/fhk03.webp",
-        "alt": "Animation process preview"
+        "alt": "FutureHK"
       },
       {
         "type": "gif",
         "src": "/images/projects/future-hk/fhk04.webp",
-        "alt": "Animation process preview"
+        "alt": "FutureHK"
       }
     ]
   },
   {
     "id": "hong-kong-film-awards",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "Film Awards / Promo",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/hkfa/hkfa_01.webp",
-        "alt": "Animation process preview"
+        "alt": "HK_Film_Awards"
       },
       {
         "type": "gif",
         "src": "/images/projects/hkfa/hkfa_02.webp",
-        "alt": "Animation process preview"
+        "alt": "HK_Film_Awards"
       },
       {
         "type": "gif",
         "src": "/images/projects/hkfa/hkfa_03.webp",
-        "alt": "Animation process preview"
+        "alt": "HK_Film_Awards"
       },
       {
         "type": "embed",
@@ -1307,8 +1297,8 @@
   },
   {
     "id": "ice-magic",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "Niagara / Unreal / Procedural Generatrion / RunTime VFX",
+    "intro": "",
     "blocks": [
       {
         "type": "embed",
@@ -1320,31 +1310,31 @@
   },
   {
     "id": "lips",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "World Cup / Promo ",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/lips/lips_start_preview.webp",
-        "alt": "Animation process preview"
+        "alt": "HK_Film_Awards"
       },
       {
         "type": "gif",
         "src": "/images/projects/lips/lips_preview.webp",
-        "alt": "Animation process preview"
+        "alt": "HK_Film_Awards"
       }
 
     ]
   },
   {
     "id": "lunar-new-year",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": " Promo / Graphic Package / Lunar New Year",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/lunar/CNY_promo_preview.webp",
-        "alt": "Animation process preview"
+        "alt": "HK_Film_Awards"
       },
       {
         "type": "gallery",
@@ -1370,19 +1360,19 @@
       {
         "type": "image",
         "src": "/images/projects/lunar/Lunar_04.jpg",
-        "alt": "Animation process preview"
+        "alt": "HK_Film_Awards"
       }
     ]
   },
   {
     "id": "meal-factory",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "Motion Graphics / Opening / Loopable Scene",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/meal-factory/dinnerTonight_endLoop.webp",
-        "alt": "Animation process preview"
+        "alt": "meal"
       },      
       {
         "type": "gallery",
@@ -1400,7 +1390,7 @@
       {
         "type": "gif",
         "src": "/images/projects/meal-factory/dinnerTonight_endLoop.webp",
-        "alt": "Animation process preview"
+        "alt": "meal"
       },
       {
         "type": "video",
@@ -1411,13 +1401,13 @@
   },
   {
     "id": "metronome",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "Motion Graphics / VFX / MV / Simulation / Particles / Houdini",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/metronome/metro_wide_PP-s.webp",
-        "alt": "Animation process preview"
+        "alt": "metronome"
       },
       {
         "type": "gallery",
@@ -1443,32 +1433,45 @@
       {
         "type": "gif",
         "src": "/images/projects/metronome/mv_CG_cut_02-s.webp",
-        "alt": "Animation process preview"
+        "alt": "metronome"
       }
     ]
   },
   {
+    "id": "motion-design-reel",
+    "subtitle": "Boardcast/ Identity / TVC / Promo / 3D motion / VFX",
+    "intro": "",
+    "blocks": [
+      {
+        "type": "embed",
+        "src": "https://www.youtube.com/embed/rKjCsFPCCwk",
+        "title": "Project video"
+      }
+
+    ]
+  },
+  {
     "id": "motor-transformer",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "TVC / Automotive / Transform / Modeling/ Animation / VFX",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/motor-transformer/03-02_0531.webp",
-        "alt": "Animation process preview"
+        "alt": "motor"
       }
 
     ]
   },
   {
     "id": "travel-factory",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "Installation Art X Animation",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/travel-factory/tfc02.webp",
-        "alt": "Animation process preview"
+        "alt": "travel"
       },
       {
         "type": "gallery",
@@ -1486,7 +1489,7 @@
       {
         "type": "gif",
         "src": "/images/projects/travel-factory/tfc03.webp",
-        "alt": "Animation process preview"
+        "alt": "travel"
       },
       {
         "type": "gallery",
@@ -1504,12 +1507,12 @@
       {
         "type": "gif",
         "src": "/images/projects/travel-factory/tfc04.webp",
-        "alt": "Animation process preview"
+        "alt": "travel"
       },
       {
         "type": "gif",
         "src": "/images/projects/travel-factory/tfc05.webp",
-        "alt": "Animation process preview"
+        "alt": "travel"
       },
       {
         "type": "embed",
@@ -1520,8 +1523,8 @@
   },
   {
     "id": "vehicle-destruction",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "Houdini / Unreal / Blurprint / Rigging/ Physics",
+    "intro": "",
     "blocks": [
       {
         "type": "embed",
@@ -1533,8 +1536,8 @@
   },
   {
     "id": "vfx-reel",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "Modeling / Rendering/ Compositing / Simulation / Procedural Generation / Matte Patint",
+    "intro": "",
     "blocks": [
       {
         "type": "embed",
@@ -1546,13 +1549,13 @@
   },
   {
     "id": "viu-sport",
-    "subtitle": "Motion Graphics / Visual Development",
-    "intro": "Detailed project introduction goes here.\n\nDescribe the creative direction, your responsibilities and the production process.",
+    "subtitle": "Identity / Promo",
+    "intro": "",
     "blocks": [
       {
         "type": "gif",
         "src": "/images/projects/sport/vs06.webp",
-        "alt": "Animation process preview"
+        "alt": "viu-sport"
       },
       {
         "type": "gallery",
@@ -1570,7 +1573,7 @@
       {
         "type": "gif",
         "src": "/images/projects/sport/vs04.webp",
-        "alt": "Animation process preview"
+        "alt": "viu-sport"
       },
       {
         "type": "gallery",
@@ -1588,12 +1591,12 @@
       {
         "type": "gif",
         "src": "/images/projects/sport/vs07.webp",
-        "alt": "Animation process preview"
+        "alt": "viu-sport"
       },
       {
         "type": "gif",
         "src": "/images/projects/sport/vs08.webp",
-        "alt": "Animation process preview"
+        "alt": "viu-sport"
       }
 
     ]

@@ -6,7 +6,8 @@
     "description": "Close-up of fluid acrylic pour art: thin cyan and white trails curve across a dark field, with tiny white specks that read like glitter or distant stars.",
     "categories": [
       "Motion Graphic",
-      "Identity"
+      "Identity",
+      "VFX"
     ],
     "date": "2024-03-15"
   },
@@ -17,7 +18,11 @@
     "description": "High-angle photograph of downtown Chicago at golden hour, with the Willis Tower and neighboring skyscrapers catching warm light against Lake Michigan.",
     "categories": [
       "Motion Graphic",
-      "Identity"
+      "Identity",
+      "Architecture",
+      "Environment",
+      "Houdini",
+      "Procedural Generation"
     ],
     "date": "2024-02-20"
   },
@@ -27,7 +32,8 @@
     "title": "Dark Chef",
     "description": "A quiet shoreline where wet sand meets calm turquoise water. The sun sits low on the horizon beside a dark silhouette of palms.",
     "categories": [
-      "Motion Graphic"
+      "Motion Graphic",
+      "Animation"
     ],
     "date": "2024-01-10"
   },
@@ -53,7 +59,6 @@
       "Motion Graphic",
       "Identity",
       "VFX",
-      "Simulation",
       "Houdini"
     ],
     "date": "2024-02-28"
@@ -98,7 +103,7 @@
     "title": "Dyson",
     "description": "A photographer shoots during blue hour. City windows and streetlights fall out of focus behind her, leaving warm bokeh against cool urban blues.",
     "categories": [
-      "Machine",
+      "Visualization",
       "VFX",
       "TVC"
     ],
@@ -110,8 +115,7 @@
     "title": "Hong Kong Film Awards",
     "description": "A tall slice of light sponge and cream, streaked with raspberry, finished with a cluster of fresh berries on a charcoal plate.",
     "categories": [
-      "Motion Graphic",
-      "Art"
+      "Motion Graphic"
     ],
     "date": "2024-04-15"
   },
@@ -121,7 +125,8 @@
     "title": "Lips",
     "description": "A lone trekker pauses on a craggy outcrop in the Dolomites, looking out over peaks wrapped in low cloud.",
     "categories": [
-      "Animation"
+      "Animation",
+      "Motion Graphic"
     ],
     "date": "2024-03-30",
     "photographer": "Lucas Clara"
@@ -133,7 +138,8 @@
     "description": "A roaster checks bean development by drawing a sample with a wooden-handled trier, the industrial drum softly blurred behind.",
     "categories": [
       "Motion Graphic",
-      "VFX"
+      "VFX",
+      "Houdini"
     ],
     "date": "2024-04-01"
   },
@@ -155,7 +161,8 @@
     "title": "Travel Factory",
     "description": "A close side view of a shared laptop session: one hand points at the display while another rests by the keyboard.",
     "categories": [
-      "Animation"
+      "Animation",
+      "Motion Graphic"
     ],
     "date": "2024-01-18"
   },
@@ -197,7 +204,7 @@
     "description": "A single contemporary dining chair in heather-grey fabric, photographed against a plain studio backdrop. Light wood legs and a softly flared back give it a quiet, furniture-catalog look.",
     "categories": [
       "Motion Graphic",
-      "Architecture"
+      "Environment"
     ],
     "date": "2024-04-16"
   },
@@ -207,8 +214,8 @@
     "title": "Snooker X Art",
     "description": "A mustard-yellow fabric chair sits as the focal point of a spare living room, flanked by a slim brass lamp and a round marble side table.",
     "categories": [
-      "Art",
-      "Motion Graphic"
+      "Motion Graphic",
+      "Identity"
     ],
     "date": "2024-04-14"
   },
@@ -219,7 +226,12 @@
     "description": "A flat-lay of three wide ceramic bowls plus a small ramekin of sauce, garnished with red onion, parsley, cashews, and whole chilies.",
     "categories": [
       "Tools",
-      "AI"
+      "AI",
+      "Unreal",
+      "Houdini",
+      "Architecture",
+      "Procedural Generation",
+      "Environment"
     ],
     "date": "2024-04-13"
   },
@@ -230,7 +242,10 @@
     "description": "Orbital composite of North America after dark. Dense golden lights mark the Northeast corridor, Great Lakes, Florida, Texas, and the West Coast.",
     "categories": [
       "Houdini",
-      "Tools"
+      "Environment",
+      "Tools",
+      "Unreal",
+      "Procedural Generation"
     ],
     "date": "2024-04-09"
   },
@@ -241,7 +256,10 @@
     "description": "Full-length fashion shot: a model in a matching yellow tracksuit and white heeled boots stands on asphalt beside a hoop, ocean and sky behind her.",
     "categories": [
       "Architecture",
-      "Tools"
+      "Environment",
+      "Tools",
+      "Unreal",
+      "Procedural Generation"
     ],
     "date": "2024-04-07"
   },
@@ -252,7 +270,8 @@
     "description": "A rolling shot of a black Panamera Turbo on a multi-lane highway. The rear spoiler is up and the LED taillight bar glows red against a cool dusk sky.",
     "categories": [
       "Automotive",
-      "Runtime VFX"
+      "Runtime VFX",
+      "Unreal"
     ],
     "date": "2024-04-06"
   },
@@ -262,7 +281,8 @@
     "title": "Cash Boom",
     "description": "Travel kit laid out on an unfolded map: a Nikon D4S, an orange Kanken pack, a Field Notes booklet, and an Ordnance Survey sheet for the New Forest.",
     "categories": [
-      "VFX"
+      "VFX",
+      "TVC"
     ],
     "date": "2024-04-04"
   },
@@ -286,7 +306,8 @@
     "categories": [
       "Automotive",
       "VFX",
-      "Animation"
+      "Animation",
+      "TVC"
     ],
     "date": "2024-05-01"
   },
@@ -297,7 +318,10 @@
     "description": "Looking along a multi-lane New York street: yellow cabs, pedestrians, traffic lights, and an urban canyon of glass and stone.",
     "categories": [
       "Tools",
-      "Architecture"
+      "Environment",
+      "Architecture",
+      "Unreal",
+      "Procedural Generation"
     ],
     "date": "2024-05-02"
   },
@@ -307,7 +331,8 @@
     "title": "Film VFX",
     "description": "Shot from below the surface as a wave breaks overhead. Foam and bubbles glow cyan where light hits, then fall into near-black water.",
     "categories": [
-      "VFX"
+      "VFX",
+      "Film"
     ],
     "date": "2024-05-03"
   },
@@ -318,7 +343,8 @@
     "description": "A giant panda holds fresh bamboo to its mouth. Black eye patches and rounded ears sit sharp against green foliage.",
     "categories": [
       "Runtime VFX",
-      "Unreal"
+      "Unreal",
+      "Procedural Generation"
     ],
     "date": "2024-05-04"
   },
@@ -329,7 +355,7 @@
     "description": "Studio portrait of a low-profile wingback chair in off-white fabric, diamond tufting on the back, and ornate stacked-ball front legs.",
     "categories": [
       "VFX",
-      "Architecture",
+      "Visualization",
       "TVC"
     ],
     "date": "2024-05-05"
@@ -365,7 +391,8 @@
     "description": "The bright central band of the galaxy fills the frame: warm core, dark dust lanes, and a field of countless stars.",
     "categories": [
       "VFX",
-      "Film"
+      "Film",
+      "Environment"
     ],
     "date": "2024-05-08"
   },
@@ -376,7 +403,10 @@
     "description": "Soft-lit portrait. A cyan architectural frame crosses behind the subject, who wears a white shirt with a partial QUEENS logo.",
     "categories": [
       "Architecture",
-      "Tools"
+      "Environment",
+      "Tools",
+      "Unreal",
+      "Procedural Generation"
     ],
     "date": "2024-05-09"
   },
@@ -386,8 +416,8 @@
     "title": "Skin Tool",
     "description": "Soft-lit portrait. A cyan architectural frame crosses behind the subject, who wears a white shirt with a partial QUEENS logo.",
     "categories": [
-      "Architecture",
-      "Tools"
+      "Tools",
+      "Unreal"
     ],
     "date": "2024-05-09"
   }
